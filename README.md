@@ -1,0 +1,1 @@
+This repository demonstrates a common yet subtle bug in Python: failing to close a file opened within a function.  The `function_with_unclosed_file` demonstrates this issue.  The solution shows how to use context managers (`with open(...)`) to prevent this.
